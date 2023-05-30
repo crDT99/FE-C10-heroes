@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+:root {
+  --whitepage: #fff9f9;
+  --cardcolor: #f3f3f3;
+}
+
+* {
+  font-family: Roboto;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head-descuentos {
+  background-color: #1cd1b0;
+  font-weight: 400;
+  font-size: 15px;
+  height: 38px;
+  padding: 1%;
+}
+
+.head-H1-container {
+  background-color: #00669f;
+  position: sticky;
+  display: block;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.head-H1 {
+  display: inline-block;
+  font-weight: 400;
+  height: 101px;
+  position: relative;
+  font-size: 40px;
+  padding: 2%;
+}
+
+.cards-container {
+  width: 100%;
+  display: inline-block;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.card {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 29%;
+  height: 529px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.card1 {
+  margin: 10% 2.5%;
+}
+
+.card2 {
+  margin: 10% 2.5% 10% 0;
+}
+
+.card3 {
+  margin: 10% 2.5% 10% 0;
+}
+
+.img-heroe {
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fondo-heroe1,
+.fondo-heroe2 {
+  height: 193px;
+  width: auto;
+  background-size: cover;
+}
+
+.fondo-heroe1 {
+  background-image: url("../img/Fondo-Batman.png");
+}
+.fondo-heroe2 {
+  background-image: url("../img/Fondo-Harley.png");
+}
+
+.descripcion-heore-container {
+  background-color: var(--cardcolor);
+  height: 336px;
+  padding: 25% 5%;
+  background: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Hero-Name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.Hero-description {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+}
+
+.ver-mas-btn {
+  background-color: #00669f;
+  color: white;
+  border: none;
+  padding: 5% 10%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.copy {
+  background-color: #00669f;
+  color: var(--whitepage);
+  padding: 1%;
+}
+
+.likeicon {
+  position: absolute;
+  left: 6%;
+  top: 6%;
+  color: #cc2424;
+}
